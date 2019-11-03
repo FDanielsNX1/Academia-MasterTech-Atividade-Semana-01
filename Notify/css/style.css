@@ -1,0 +1,125 @@
+body{
+    margin: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ========== HEADER ========== */
+header{
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-top: 10px solid #2ecc71;
+    color: white;
+    display: flex;
+    height: 460px;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+header ul {
+    display: block;
+    padding-left: 0;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+
+.icon-header{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    padding: 5px;
+}
+.icon-header:hover{
+    background-color: rgb(9, 156, 66);
+    cursor: pointer;
+}
+.hands-img{
+    width: 400px;
+}
+
+/* ========== SECTION 01 ========== */
+.section-01{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+
+.section-01 img{
+    background-color: #2ecc71;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+/* ========== SECTION 02 ========== */
+.section-02{
+    background-color: #e3e3e3;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-02 div{
+    padding: 30px;
+    width: 30%;
+}
+
+.section-02 input{
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 8px 20px;
+}
+.section-02 button{
+    background-color: #2ecc71;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 20px;
+}
+
+/* ========== SECTION 03 ========== */
+.section-03{
+    padding: 40px;
+    text-align: center;
+}
+
+.section-03 ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.section-03 ul a{
+    color: white;
+    padding: 10px;
+}
+.section-03 ul a i{
+    background-color: rgb(197, 197, 197);
+    border-radius: 50%;
+    padding: 10px;
+}
+.section-03 ul a i:hover {
+    background-color: #2ecc71;
+}
+
+/* ========== FOOTER ========== */
+footer {
+    background-color: #e3e3e3;
+    padding: 40px 0;
+    text-align: center;
+}
+
+footer ul {
+    display: block;
+    margin-top: 10px;
+    padding-left: 0;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+footer ul a {
+    color: rgb(132, 132, 132);
+    padding: 0 10px;
+    text-decoration: none;
+}
