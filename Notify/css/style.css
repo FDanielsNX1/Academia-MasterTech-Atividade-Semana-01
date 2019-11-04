@@ -1,11 +1,11 @@
 body{
     margin: 0%;
-    font-family: 'Pacifico', cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* ========== HEADER ========== */
 header{
-    background-image: url(../img/banner.png);
+    background-image: url(../img/banner+hand.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -32,19 +32,26 @@ header ul li:hover{
     background-color: rgb(9, 156, 66);
     cursor: pointer;
 }
-.hands-img{
-    width: 400px;
+
+.bloco01-header{
+    width: 35%;
+    padding-top: 90px;
+    margin-left: -400px;
 }
+
 
 
 /* ========== SECTION 01 ========== */
 .section-01{
     display: flex;
     padding: 20px;
+    justify-content: space-around;
     text-align: center;
 }
-.section-01 div{
-margin: 0% auto;
+.blocos-section01{
+    padding: 30px;
+    width: 20%;
+    margin: 0% auto;
 }
 .imgs-section01{
     background-color: #2ecc71;
@@ -52,6 +59,7 @@ margin: 0% auto;
     font-size: 50px;
     padding: 20px 20px 15px 20px;
     width: 70px;
+    margin: 0% auto;
 }
 
 .imgs-section01:hover{
@@ -75,23 +83,37 @@ margin: 0% auto;
     width: 30%;
 }
 
-.section-02 input{
-    border-radius: 10px;
+.section-02 div input{
+    border-radius: 10px 0px 0px 10px;
     font-size: 18px;
+    height: 27px;
     padding: 8px 20px;
+    margin-top: 3px;
+    width: 60%;
 }
 .section-02 button{
     background-color: #2ecc71;
-    border-radius: 10px;
+    border-radius: 0px 10px 10px 0px;
     color: #fff;
     font-size: 18px;
+    height: 51px;
     padding: 8px 20px;
+    margin-left: -8px;
+}
+.section-02 .video{
+    padding-top: 45px;
+}
+.section-02 div iframe{
+    border-radius: 3%;
+    width: 100%;
 }
 
 /* ========== SECTION 03 ========== */
 .section-03{
     padding: 40px;
     text-align: center;
+    width: 70%;
+    margin: 0% auto;
 }
 
 .section-03 ul{
@@ -110,6 +132,10 @@ margin: 0% auto;
 }
 .section-03 ul a i:hover {
     background-color: #2ecc71;
+}
+
+.section-03 img{
+    width: 100%;
 }
 
 /* ========== FOOTER ========== */
@@ -133,4 +159,53 @@ footer ul a {
     color: rgb(132, 132, 132);
     padding: 0 10px;
     text-decoration: none;
+}
+
+
+/*  Responsivo */
+@media(max-width: 1106px){
+    .bloco01-header{
+        width: 35%;
+        padding-top: 90px;
+        margin-left: -105px;
+    }
+    .section-01{
+        display: block;
+    }
+    .section-02{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .section-02 form{
+        display: flex;  
+        }
+    .section-02 div input{
+        font-size: 15px;
+        border-radius: 10px;
+        width: 100%;
+    }
+    .section-02 button{
+        font-size: 15px;
+        background-color: #2ecc71;
+        border-radius: 10px;
+        width: 100%;  
+    }
+}
+
+@media(max-width: 460px){
+    .bloco01-header ul{
+      display: flex;
+    }
+}
+
+@media(max-width: 386px){
+  .bloco01-header ul{
+    display: flex;
+  }
+  .section-03 ul{
+      flex-wrap: wrap;
+  }
+  .section-03 ul li{
+    margin: 0% auto;
+}
 }
