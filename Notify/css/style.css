@@ -2,6 +2,9 @@ body{
     margin: 0%;
     font-family: 'Roboto', sans-serif;
 }
+p{
+    color: rgb(173, 169, 169);
+}
 
 /* ========== HEADER ========== */
 header{
@@ -10,11 +13,12 @@ header{
     background-position: center;
     background-size: cover;
     border-top: 10px solid #2ecc71;
-    color: white;
+    color: rgb(235, 227, 227);
     display: flex;
     height: 460px;
     justify-content: space-around;
     padding-top: 50px;
+    font-size: 20px;
 }
 header ul {
     display: block;
@@ -126,10 +130,6 @@ header ul li:hover{
     width: 70%;
 }
 
-.section-03 p{
-    color: rgb(197, 197, 197);
-}
-
 .section-03 ul{
     display: flex;
     justify-content: center;
@@ -221,14 +221,17 @@ footer ul li:hover {
     }
 }
 
-@media(max-width: 386px){
+@media(max-width: 386px){ 
+  .bloco01-header h3{
+     font-size: 20px;
+  }
   .bloco01-header ul{
-    display: flex;
+     display: flex;
   }
   .section-03 ul{
       flex-wrap: wrap;
   }
   .section-03 ul li{
-    margin: 0% auto;
-}
+     margin: 0% auto;
+  }
 }
