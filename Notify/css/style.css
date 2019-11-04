@@ -1,6 +1,6 @@
 body{
     margin: 0%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* ========== HEADER ========== */
@@ -50,8 +50,7 @@ header ul li:hover{
 }
 .blocos-section01{
     margin: 0% auto;
-    padding: 30px;
-    width: 20%;
+    padding: 80px;
 }
 .imgs-section01{
     background-color: #2ecc71;
@@ -127,6 +126,10 @@ header ul li:hover{
     width: 70%;
 }
 
+.section-03 p{
+    color: rgb(197, 197, 197);
+}
+
 .section-03 ul{
     display: flex;
     justify-content: center;
@@ -191,6 +194,10 @@ footer ul li:hover {
     .section-02{
         flex-direction: column-reverse;
         align-items: center;
+    }   
+    .section-02 .input-section02, .video{
+       width: 60%;
+    
     }
     .section-02 form{
         display: flex;  
