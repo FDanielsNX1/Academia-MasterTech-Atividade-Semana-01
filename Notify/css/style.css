@@ -171,6 +171,10 @@ footer ul a {
     text-decoration: none;
 }
 
+footer ul li:hover {
+    border-bottom: 5px solid #2ecc71;
+}
+
 
 /*  Responsivo */
 @media(max-width: 1106px){
