@@ -34,9 +34,9 @@ header ul li:hover{
 }
 
 .bloco01-header{
-    width: 35%;
-    padding-top: 90px;
     margin-left: -400px;
+    padding-top: 90px;
+    width: 35%;
 }
 
 
@@ -44,22 +44,22 @@ header ul li:hover{
 /* ========== SECTION 01 ========== */
 .section-01{
     display: flex;
-    padding: 20px;
     justify-content: space-around;
+    padding: 20px;
     text-align: center;
 }
 .blocos-section01{
+    margin: 0% auto;
     padding: 30px;
     width: 20%;
-    margin: 0% auto;
 }
 .imgs-section01{
     background-color: #2ecc71;
     border-radius: 50%;
     font-size: 50px;
+    margin: 0% auto;
     padding: 20px 20px 15px 20px;
     width: 70px;
-    margin: 0% auto;
 }
 
 .imgs-section01:hover{
@@ -102,8 +102,8 @@ header ul li:hover{
     color: #fff;
     font-size: 18px;
     height: 51px;
-    padding: 8px 20px;
     margin-left: -8px;
+    padding: 8px 20px;
 }
 .section-02 button:hover{
     background-color: #2eccc4;
@@ -118,12 +118,13 @@ header ul li:hover{
     width: 100%;
 }
 
+
 /* ========== SECTION 03 ========== */
 .section-03{
+    margin: 0% auto;
     padding: 40px;
     text-align: center;
     width: 70%;
-    margin: 0% auto;
 }
 
 .section-03 ul{
@@ -147,6 +148,7 @@ header ul li:hover{
 .section-03 img{
     width: 100%;
 }
+
 
 /* ========== FOOTER ========== */
 footer {
@@ -176,7 +178,7 @@ footer ul li:hover {
 }
 
 
-/*  Responsivo */
+/*  ========== Responsivo ========== */
 @media(max-width: 1106px){
     .bloco01-header{
         width: 35%;
