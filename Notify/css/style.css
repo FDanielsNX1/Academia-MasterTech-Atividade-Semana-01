@@ -91,6 +91,11 @@ header ul li:hover{
     margin-top: 3px;
     width: 60%;
 }
+.section-02 div input:hover{
+    background-color: #a2afaf;
+    cursor: pointer;
+}
+
 .section-02 button{
     background-color: #2ecc71;
     border-radius: 0px 10px 10px 0px;
@@ -100,6 +105,11 @@ header ul li:hover{
     padding: 8px 20px;
     margin-left: -8px;
 }
+.section-02 button:hover{
+    background-color: #2eccc4;
+    cursor: pointer;
+}
+
 .section-02 .video{
     padding-top: 45px;
 }
